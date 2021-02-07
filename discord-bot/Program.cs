@@ -29,7 +29,6 @@ namespace discord_bot
             await client.LoginAsync(TokenType.Bot, token);
             await client.StartAsync();
 
-            // wait forever so bot doesn't close itself
             await Task.Delay(-1);
         }
 

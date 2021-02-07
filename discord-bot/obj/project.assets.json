@@ -1772,6 +1772,10 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Discord.Net >= 2.3.0",
+      "Discord.Net.Commands >= 2.3.0",
+      "Discord.Net.Core >= 2.3.0",
+      "Discord.Net.Rest >= 2.3.0",
+      "Discord.Net.WebSocket >= 2.3.0",
       "HtmlAgilityPack >= 1.11.30",
       "ScrapySharp >= 3.0.0"
     ]
@@ -1823,6 +1827,22 @@
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Discord.Net": {
+            "target": "Package",
+            "version": "[2.3.0, )"
+          },
+          "Discord.Net.Commands": {
+            "target": "Package",
+            "version": "[2.3.0, )"
+          },
+          "Discord.Net.Core": {
+            "target": "Package",
+            "version": "[2.3.0, )"
+          },
+          "Discord.Net.Rest": {
+            "target": "Package",
+            "version": "[2.3.0, )"
+          },
+          "Discord.Net.WebSocket": {
             "target": "Package",
             "version": "[2.3.0, )"
           },

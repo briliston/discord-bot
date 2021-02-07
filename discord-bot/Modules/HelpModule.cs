@@ -22,7 +22,7 @@ namespace discord_bot.Modules.HelpModule
             var url = "https://www.google.com/search?q=" + question.Replace(" ","+") + "&rlz=1C1CHBF_enUS863US863&oq=how+to+&aqs=chrome.1.69i59l3j69i57j69i59j0l3.2757j0j15&sourceid=chrome&ie=UTF-8";
             //var link = WebScrape.GetMainPageLinks(url);
             Task.Delay(1000).Wait();
-            await ReplyAsync("God damn you're lazy... Fine. I guess I'll google that for you.");
+            await ReplyAsync("Wow you're lazy... Fine. I guess I'll google that for you.");
             Task.Delay(2000).Wait();
             await ReplyAsync($"{url}");
         }
