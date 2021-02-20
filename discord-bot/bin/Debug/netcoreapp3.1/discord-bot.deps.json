@@ -9,6 +9,10 @@
       "discord-bot/1.0.0": {
         "dependencies": {
           "Discord.Net": "2.3.0",
+          "Discord.Net.Commands": "2.3.0",
+          "Discord.Net.Core": "2.3.0",
+          "Discord.Net.Rest": "2.3.0",
+          "Discord.Net.WebSocket": "2.3.0",
           "HtmlAgilityPack": "1.11.30",
           "ScrapySharp": "3.0.0"
         },
